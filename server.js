@@ -6,6 +6,8 @@ require("dotenv").config();
 const cors = require("cors");
 const path = require("path");
 const morgan = require("morgan");
+const user = require("./model/User");
+
 
 
 
